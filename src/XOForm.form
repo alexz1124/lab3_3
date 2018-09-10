@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="XOForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-5748992"/>
+      <foreground color="-4488893"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="869d" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4488893"/>
+          <foreground color="-4488893"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="727de" class="javax.swing.JLabel" binding="lblScoreX">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4496590"/>
+              <font name="Bradley Hand ITC" size="36" style="1"/>
+              <foreground color="-775"/>
+              <text value="X : 0"/>
+            </properties>
+          </component>
+          <component id="9b19" class="javax.swing.JLabel" binding="lblScoreDraw">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4496590"/>
+              <font name="Bradley Hand ITC" size="36" style="1"/>
+              <foreground color="-775"/>
+              <text value="Draw : 0"/>
+            </properties>
+          </component>
+          <component id="5c910" class="javax.swing.JLabel" binding="lblScoreO">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4496590"/>
+              <font name="Bradley Hand ITC" size="36" style="1"/>
+              <foreground color="-775"/>
+              <text value="Y : 0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="f32b8" class="javax.swing.JButton" binding="bnt1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4500436"/>
+          <font name="Bradley Hand ITC" size="70" style="1"/>
+          <foreground color="-775"/>
+          <horizontalTextPosition value="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="45034" class="javax.swing.JButton" binding="bnt2">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4500436"/>
+          <font name="Bradley Hand ITC" size="70" style="1"/>
+          <foreground color="-775"/>
+          <horizontalTextPosition value="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="3faff" class="javax.swing.JButton" binding="bnt3">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4500436"/>
+          <font name="Bradley Hand ITC" size="70" style="1"/>
+          <foreground color="-775"/>
+          <horizontalTextPosition value="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="94b" class="javax.swing.JButton" binding="bnt4">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4500436"/>
+          <font name="Bradley Hand ITC" size="70" style="1"/>
+          <foreground color="-775"/>
+          <horizontalTextPosition value="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="15abb" class="javax.swing.JButton" binding="bnt5">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4500436"/>
+          <font name="Bradley Hand ITC" size="70" style="1"/>
+          <foreground color="-775"/>
+          <horizontalTextPosition value="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="ab718" class="javax.swing.JButton" binding="bnt6">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4500436"/>
+          <font name="Bradley Hand ITC" size="70" style="1"/>
+          <foreground color="-775"/>
+          <horizontalTextPosition value="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="db1b9" class="javax.swing.JButton" binding="bnt7">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4500436"/>
+          <font name="Bradley Hand ITC" size="70" style="1"/>
+          <foreground color="-775"/>
+          <horizontalTextPosition value="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="ea4b" class="javax.swing.JButton" binding="bnt8">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4500436"/>
+          <font name="Bradley Hand ITC" size="70" style="1"/>
+          <foreground color="-775"/>
+          <horizontalTextPosition value="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="a41c4" class="javax.swing.JButton" binding="bnt9">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4500436"/>
+          <font name="Bradley Hand ITC" size="70" style="1"/>
+          <foreground color="-775"/>
+          <horizontalTextPosition value="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
